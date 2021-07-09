@@ -1,0 +1,229 @@
+/* 全体ここから */
+.indexBox{
+    text-align:center;
+    background:rgba(255,255,255,0.7);
+    line-height:1.8;
+}
+.indexBoxLink{
+    font-size:1.1em;
+    margin:20px 0;
+    text-align:center;
+}
+/* 全体ここまで */
+
+/* 1ここから */
+.indexConceptTea{
+    background:rgba(255,255,255,0.6) url(../images/index_tea.png) top right no-repeat ;
+}
+.indexConseptIncence{
+    background:rgba(255,255,255,0.6) url(../images/index_incence.png) top left no-repeat ;
+}
+.indexConceptGrid{
+    display:grid;
+    grid-template-rows: 533px;
+    grid-template-columns: auto 1000px auto;
+}
+.indexConceptTitle{
+	font-size:2em;
+    letter-spacing: -0.1em;
+    line-height:1.3em;
+    margin-bottom:30px;
+}
+.g1{
+    grid-row: 1;
+    grid-column: 2;
+    margin:auto 620px 30px 0;
+    font-size:0.9em;
+}
+.g1 .indexConceptTitle{
+    border-left:7px solid #477c3e;
+    text-align:left;
+    padding-left:20px;
+}
+.g1 span, .g2 span{
+    background:#fff;
+}
+.g2{
+    grid-row: 1;
+    grid-column: 2;
+    margin:auto 0 30px 620px;
+    font-size:0.9em;
+}
+.g2 .indexConceptTitle{
+    border-right:7px solid #477c3e;
+    text-align:right;
+    padding-right:20px;
+}
+/* 1ここまで */
+
+/* 2ここから */
+.indexIncence{
+    padding-top:75px;
+    margin-top:80px;
+    background:url(../images/index_incence_back.png) top center no-repeat;
+}
+.indexIncenceTitle{
+    font-size:2.2em;
+    text-align:center;
+    border-bottom:10px solid #98c143;
+    padding-bottom: 25px;
+    margin:0 auto 40px;
+    width:600px;
+    letter-spacing: 0.1em;
+}
+.indexIncenceExpo{
+    text-align:center;
+    line-height:2;
+    margin-bottom:100px;
+}
+.indexIncenceText{
+    margin:auto;
+}
+.incenceGrid{
+    display:grid;
+    grid-template-columns: auto 120px 350px 300px 350px 120px auto;
+    grid-template-rows: auto 110px 250px 110px 250px 110px;
+}
+.g3{
+    grid-column: 3/5;
+    grid-row: 3;
+    margin:10px auto 0;
+}
+.g4{
+    grid-column: 5/7;
+    grid-row: 2/5;
+}
+.g5{
+    grid-column: 4/6;
+    grid-row: 5;
+    margin:50px auto 0;
+}
+.g6{
+    grid-column: 2/4;
+    grid-row: 4/7;
+}
+.g7{
+    grid-column:4/6;
+    grid-row:6;
+    font-size:1.1em;
+    text-align: center;
+}
+.oiTitle{
+    font-size:1.5em;
+    color:#477c3e;
+    padding-bottom:20px;
+}
+.olText{
+    /* font-size:0.9em; */
+    letter-spacing:0.1em;
+}
+/* 2ここまで */
+
+/* 3ここから */
+.indexShop{
+    background-image:url(../images/index_shop.jpg);
+    background-repeat:no-repeat;
+    background-size:100%;
+    margin:120px 0;
+}
+.shopGrid{
+    display:grid;
+    width:100%;
+    grid-template-columns: auto 400px 60px 540px auto;
+    grid-template-rows: 70px auto 373px 70px;
+}
+.g8{
+    grid-column: 2;
+    grid-row: 2/4;
+    padding:20px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.indexShopText{
+    border-bottom:2px solid #477c3e;
+    padding-bottom:20px;
+    margin-bottom:25px;
+}
+.contact a{
+    transition:0.3s ;
+}
+.contact a:link ,.contact a:visited{
+    display:block;
+    border:3px solid #477c3e;
+	color:#fff;
+    height:auto;
+    text-align: right;
+    border-radius:15px;
+    text-decoration:none;
+    line-height: 2.5;
+    font-size:1.1em;
+    margin:0 5px;
+}
+#tell a:link ,#tell a:visited{
+    background:#477c3e url(../images/icon_phone.svg) 10px center no-repeat ;
+    background-size: 30px;
+    padding-right:15px;
+    width:180px;
+}
+#tell a:hover,#tell a:active{
+    background:#fff url(../images/icon_phone_on.svg) 10px center no-repeat ;
+    background-size: 30px;
+	color:#477c3e;
+}
+#mail a:link ,#mail a:visited{
+    background:#477c3e url(../images/icon_mail.svg) 15px center no-repeat ;
+    background-size: 40px;
+    padding-right:20px;
+    width:160px;
+}
+#mail a:hover,#mail a:active{
+    background:#fff url(../images/icon_mail_on.svg) 15px center no-repeat ;
+    background-size: 40px;
+	color:#477c3e;
+}
+.contactExpo{
+    font-size:0.8em;
+    margin:20px auto 15px;
+}
+.g9{
+    grid-column: 4;
+    grid-row: 2;
+    background: none;
+    text-align:right;
+}
+.g9 div{
+    text-align:center;
+    margin:20px auto;
+    color:#fff;
+    font-size:2em;
+}
+.g10{
+    grid-column: 4;
+    grid-row: 3;
+}
+.g10 img{
+    border:20px solid #fff;
+}
+.contact{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact span{
+    font-family:serif;
+    font-weight:bold;
+    font-size:1.7em;
+}
+.twitter{
+    font-size:0.9em;
+    margin-top:10px;
+}
+.access{
+    width:100%;
+    text-align: left;
+    padding-left: 20px;
+}
+/* 3ここまで */

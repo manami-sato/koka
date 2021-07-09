@@ -1,0 +1,101 @@
+.container{
+	margin-top:80px;
+}
+
+.accessTitle{
+    color:#477c3e;
+    margin-top:10px;
+    margin-bottom:5px;
+    font-size:1.1em;
+}
+
+.accessDetail{
+    text-indent:1em;
+    padding-bottom:10px;
+    border-bottom:3px dotted #477c3e;
+}
+
+.mapBox{
+    display:flex;
+    width:960px;
+    margin:0 auto;
+}
+
+.mapBox1{
+    margin-right:70px;
+    width:500px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.mapBox1 img{
+    border:20px solid #fff;
+}
+
+.mapBox2{
+    width:350px;
+}
+
+.mapLogo{
+    text-align:center;
+}
+
+.mapBox2 ul li{
+    list-style-type:none;
+}
+
+
+.contact a{
+    transition:0.3s ;
+}
+.contact a:link ,.contact a:visited{
+    display:block;
+    border:3px solid #477c3e;
+	color:#fff;
+    height:auto;
+    text-align: right;
+    border-radius:15px;
+    text-decoration:none;
+    line-height: 2.5;
+    font-size:1.1em;
+    margin:0 7px;
+}
+#tell a:link ,#tell a:visited{
+    background:#477c3e url(../images/icon_phone.svg) 10px center no-repeat ;
+    background-size: 30px;
+    padding-right:15px;
+    width:180px;
+}
+#tell a:hover,#tell a:active{
+    background:#fff url(../images/icon_phone_on.svg) 10px center no-repeat ;
+    background-size: 30px;
+	color:#477c3e;
+}
+#mail a:link ,#mail a:visited{
+    background:#477c3e url(../images/icon_mail.svg) 15px center no-repeat ;
+    background-size: 40px;
+    padding-right:20px;
+    width:160px;
+}
+#mail a:hover,#mail a:active{
+    background:#fff url(../images/icon_mail_on.svg) 15px center no-repeat ;
+    background-size: 40px;
+	color:#477c3e;
+}
+.contactExpo{
+    font-size:0.8em;
+    margin:20px auto 15px;
+}
+.contact{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact span{
+    font-family:serif;
+    font-weight:bold;
+    font-size:1.7em;
+}

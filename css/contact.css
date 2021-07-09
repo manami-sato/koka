@@ -1,0 +1,55 @@
+.container{
+	margin-top:80px;
+}
+
+.Table{
+	margin:0 auto;
+	}
+	
+.Form{
+	border:solid 1px #999;
+	border-radius:3px;
+	background:#eee;
+	line-height:2;
+	width:350px;
+	}
+.formText{
+	margin:0 40px 50px;
+	}
+.formTextarea{
+	height:170px;
+	margin:15px 0;
+}
+/* table{
+	border-collapse:collapse;
+} */
+
+.formTh{
+	width:230px;
+	height:60px;
+	text-align:left;
+	font-weight:normal;
+	}
+/* 	
+.formTd{
+	width:370px;
+	text-align:center;
+	color:#361717;
+	} */
+	
+.submit{
+	background:#477c3e;
+	color:#fff;
+	border:none;
+	width:100px;
+	height:45px;
+	border-radius:10px;
+	border:3px solid #477c3e;
+	color:#fff;
+	transition:0.3s ;
+	}
+	
+.submit:hover{
+	background:#fff;
+	color:#477c3e;
+	}
